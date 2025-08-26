@@ -1,0 +1,24 @@
+name: assignment_3_recipe_app
+description: A Flutter recipe app with Firebase Firestore CRUD
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  firebase_core: ^2.32.0
+  cloud_firestore: ^4.17.5
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
